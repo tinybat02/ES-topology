@@ -1,0 +1,28 @@
+{
+  "name": "es-topology",
+  "version": "1.0.0",
+  "description": "ES Topology",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Nam Le",
+  "license": "MIT",
+  "devDependencies": {
+    "@grafana/data": "next",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "next",
+    "@types/ol": "^6.3.1"
+  },
+  "dependencies": {
+    "@turf/helpers": "^6.1.4",
+    "@turf/nearest-point": "^6.0.1",
+    "geojson-path-finder": "^1.5.2",
+    "nanoid": "^3.1.10",
+    "ol": "^6.3.1",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dropzone": "^11.0.1"
+  }
+}
